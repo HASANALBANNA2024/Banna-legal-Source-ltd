@@ -171,6 +171,80 @@
     text-align: center;
 }
 
+/* Low Section  */
+.low-section {
+    width: 1170px;
+    height: 998px;
+    margin: o auto;
+    /* border: 1px solid tomato; */
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    margin-bottom: 120px;
+}
+
+.box {
+    width: 388px;
+    height: 497px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(231, 231, 231); */
+}
+
+.box .img1 {
+    width: 71.8px;
+    height: 72.3px;
+    margin-top: 56px;
+    margin-left: 149px;
+    margin-bottom: 32px;
+    /* border: 1px solid yellow; */
+    border: none;
+
+}
+
+.box h1 {
+
+    width: 200px;
+    height: 42px;
+    color: rgb(65, 64, 64);
+    font-family: EB Garamond;
+    font-size: 2rem;
+    font-weight: 800px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    /* border: 1px solid tomato; */
+
+}
+
+.box p {
+    width: 258px;
+    height: 130px;
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 35.75px;
+    /* border: 1px solid tomato; */
+}
+
+.box .img2 {
+    width: 32.5px;
+    height: 32.5px;
+    /* border: 1px solid tomato; */
+    border: none;
+
+
+}
+
+.box-size {
+    box-sizing: border-box;
+border: 1px solid rgb(231, 231, 231);
+background: linear-gradient(90.00deg, rgb(243, 243, 243),rgba(243, 243, 243, 0) 100%);
+}
+
 
 
 
@@ -179,6 +253,9 @@
 @media screen and (max-width: 576px) {
 
     /* navber media for mobile  */
+    *{
+        margin: 0 auto;
+    }
     .navber,
     .navber-icon,
     .banner,
@@ -206,8 +283,14 @@
         width: calc(100% - 20px);
         margin: 0 auto;
     }
-    .practice-paragraph{
+
+    .practice-paragraph {
+        width: 100%;
+
+    }
+    .low-section {
         width:100%;
+        grid-template-columns: repeat(1,1fr);
         
     }
 }
@@ -216,6 +299,9 @@
 @media screen and (min-width:577px) and (max-width:992px) {
 
     /* navber media for tablet  */
+    *{
+        margin: 0 auto;
+    }
     .navber,
     .navber-icon,
     .mail-box,
@@ -239,13 +325,19 @@
         width: calc(100% - 20px);
         margin: 0 auto;
     }
+
     .practice-area {
         width: calc(100% - 20px);
         margin: 0 auto;
     }
-    .practice-paragraph{
+
+    .practice-paragraph {
+        width: 100%;
+
+    }
+    .low-section {
         width:100%;
+        grid-template-columns: repeat(1,1fr);
         
     }
-
 }
