@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* share style */
+.display{
+    display: flex;}
+
+.bg-light{
+    background-color: rgb(255,255,255);
+}
+    
+    /* navber desgin */
+
+.navber{
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+margin-bottom: 50px;
+
+}
+
+.justice{
+    width: 158px;
+    height: 46px;
+}
+.navber-link{
+    text-decoration: none;
+    color: rgb(112,112,112);
+    width: 7rem;
+    height: 1.25rem;
+    font-size: 1rem;
+    font-weight: 400px;
+    font-family: "Poppins", sans-serif;
+}
+.navber-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+/* .navber-button{
+    width: 220px;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background-color: rgb(182,140,90);
+
+} */
+.button{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(182,140,90);
+    border: none;
+    text-align: center;
+    margin: 18px 29px;
+    width: 220px;
+    height: 4rem;
+    border-radius: 0.5rem;
+
+}
+
+
+
+
+
+/* Mobile Media Query  */
+
+@media screen and (max-width: 576px){
+     /* navber media for mobile  */
+    .navber,.navber-icon{
+        flex-direction: column;
+        gap: 1 rem;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+
+/* Tablet Media  */
+@media screen  and (min-width:577px) and (max-width:992px){
+    /* navber media for tablet  */
+    .navber,.navber-icon{
+        flex-direction: column;
+        gap: 1 rem;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
