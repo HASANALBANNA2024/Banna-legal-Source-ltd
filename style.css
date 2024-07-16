@@ -142,6 +142,36 @@
 }
 
 
+/* section practise Area  */
+.practice-area {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 4rem;
+
+}
+
+.practice-header {
+    width: 407px;
+    height: 52px;
+    color: rgb(65, 64, 64);
+    font-family: EB Garamond;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.practice-paragraph {
+    width: 714px;
+    height: 52px;
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
 
 
 /* Mobile Media Query  */
@@ -172,6 +202,14 @@
         margin: 0 auto;
     }
 
+    .practice-area {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+    .practice-paragraph{
+        width:100%;
+        
+    }
 }
 
 /* Tablet Media  */
@@ -192,7 +230,7 @@
     .banner,
     .mail-box,
     .message-box {
-        width:calc(100% - 20px);
+        width: calc(100% - 20px);
         margin: 0 auto;
         padding: 20px;
     }
@@ -201,4 +239,13 @@
         width: calc(100% - 20px);
         margin: 0 auto;
     }
+    .practice-area {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+    .practice-paragraph{
+        width:100%;
+        
+    }
+
 }
